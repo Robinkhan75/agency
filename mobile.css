@@ -1,0 +1,478 @@
+
+
+
+
+
+@media screen and (max-width:850px){
+	.menu-item {
+		display: none;
+	}
+	.logo {
+		width: 50%;
+	}
+	.mobile-menu {
+		width: 50%;
+		text-align: right;
+		padding-right: 50px;
+		display: block;
+
+	}
+}
+
+@media screen and (min-width:850px) {
+	.contain {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width:850px) {
+	.contain {
+		display: inline-block;
+	}
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+
+
+/*------------Home Section-----------*/
+
+
+.home-container {
+	padding: 100px 20px 50px 20px;
+	text-align: center;
+}
+
+.home-heading h1 {
+	font-size: 35px;
+}
+
+.home-heading p {
+	padding: 20px 20px;
+}
+
+.home-img img {
+	width: 80%;
+	min-width: 400px;
+	padding-top: 50px;
+}
+
+.home-btn-a {
+	margin: 00px 20px 10px 00px;
+}
+
+
+
+
+/*---------Service Section-----------*/
+
+.service-container {
+	padding: 50px 00px;
+}
+.service-heading {
+	text-align: center;
+	padding: 0px 00px 20px 0px;
+}
+
+.service-heading h1 {
+	font-size: 35px;
+}
+.service-heading p {
+	padding: 10px;
+}
+.service {
+	text-align: center;
+}
+.service div {
+	width: 450px;
+	margin: 15px 00px;
+	min-width: 400px;
+}
+
+
+
+/*----------About Section------------*/
+
+
+.about-img img {
+	width: 450px;
+	padding-bottom: 30px;
+}
+
+.about-heading button {
+	margin: 20px 30%;
+}
+
+.about-heading h1 {
+	font-size: 35px;
+	padding: 10px 00px 10px 00px;
+}
+.about-heading h2 {
+	font-size: 23px;
+	font-weight: 600;
+	color: #EA5455;
+	padding-bottom: 5px;
+	letter-spacing: 1.2px;
+	line-height: 1.5;
+	padding: 10px 10px;
+}
+.about-heading p {
+	padding: 00px 10px;
+}
+
+.about-heading li {
+	width: 100%;
+	font-size: 18px;
+}
+
+
+
+
+
+
+/*-------------Extra Section-------------*/
+
+
+
+.extra-container {
+	margin: 50px 00px;
+	text-align: center;
+}
+.extra-container > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.extra-a h1 {
+	font-size: 35px;
+	padding: 10px 00px 0px 00px;
+}
+.extra-a p {
+	padding: 10px;
+}
+.extra-b div {
+	width: 250px;
+	margin: 10px;
+}
+
+
+
+
+
+
+/*---------Slide Section------------*/
+
+
+.slide-heading {
+	text-align: center;
+	padding: 70px 00px 40px 00px;
+}
+
+.slide-heading h1 {
+	font-size: 35px;
+}
+.slide-heading p {
+	padding: 10px;
+	text-align: center;
+}
+
+.slideshow-container {
+  width: 100%;
+}
+
+.iconn  {
+	text-align: left;
+	padding: 00px;
+}
+.iconn i {
+	font-size: 20px;
+	color: #F6A200;
+}
+
+.Slides {
+  padding: 40px 60px 00px 60px;
+}
+
+.prev, .next {
+  top: 30%;
+  margin-top: 0px;
+}
+
+.dottt {
+  	padding-bottom: 00px;
+}
+
+.dot-container {
+	width: 100%;
+}
+
+.Slides p {
+	font-size: 16px;
+}
+.img-aa {
+	width: 70%;
+	float: left;
+	text-align: left;
+	padding: 20px 0px 40px 0px;
+}
+.cotetion {
+	font-size: 50px;
+}
+
+
+
+
+
+
+
+/*---------Team Section-----------*/
+
+
+.team-container {
+  margin: 50px 00px;
+  padding: 40px 00px;
+  text-align: center;
+}
+
+
+.team-heading h1 {
+	font-size: 35px;
+	padding: 10px 00px 10px 00px;
+}
+.team-heading p {
+	padding: 00px 15px;
+}
+
+
+
+
+
+
+/*----------News Section-----------*/
+
+
+.news-container {
+	padding: 20px 00px 50px 00px;
+	text-align: center;
+}
+
+.news-container div img {
+	width: 450px;
+	padding-bottom: 50px;
+}
+
+.news-container div h1 {
+	font-size: 35px;
+	padding: 10px 20px 30px 20px;
+}
+
+.box {
+	margin-bottom: 30px;
+}
+
+
+
+
+/*------------Contact Section--------------*/
+
+
+.contact-container {
+	padding: 50px 0px 00px 0px;
+	text-align: center;
+}
+.contact-container div {
+	height: 250px;
+}
+
+.contact-container div:nth-child(1) img {
+	width: 200px;
+}
+.contact-container div p {
+	font-size: 18px;
+	padding: 20px 15px 10px 0px;
+}
+.contact-container div i {
+	width: 50px;
+	height: 50px;
+	color: #621AEB;
+	font-size: 25px;
+	border-radius: 5px;
+	margin: 00px 10px;
+	text-align: center;
+	line-height: 50px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+}
+.contact-container div i:hover {
+	background: #621AEB;
+	color: white;
+	transform: scale(1.2);
+	transition: 0.4s;
+}
+.contact-container div h4 {
+	padding-bottom: 10px;
+}
+.contact-container div li {
+	list-style-type: disclosure-closed;
+	padding: 8px 5px 5px 15px;
+	font-size: 18px;
+	font-weight: 600;
+	transition: 0.4s;
+}
+
+.contact-container div li:hover {
+	color: #621AEB;
+	transform: translate(10px);
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1000px){
+
+
+
+/*------------Home Section-----------*/
+
+
+
+
+.home-heading h1 {
+	font-size: 40px;
+}
+
+.home-img img {
+	width: 100%;
+	min-width: 350px;
+}
+
+.home-btn-a {
+	margin: 20px 20px 10px 00px;
+}
+
+
+.home-btn-b {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+/*----------About Section------------*/
+
+
+.about-container {
+	text-align: center;
+	padding: 50px 00px;
+	margin: 60px 00px;
+	flex-wrap: wrap;
+}
+
+.about-img {
+	width: 100%;
+	min-width: 450px;
+}
+.about-img img {
+	width: 98%;
+}
+
+.about-heading  {
+	width: 100% !important;
+	padding: 70px 20px 0px 20px !important;
+}
+
+.about-heading h1 {
+	padding: 10px;
+}
+.about-heading h2 {
+	font-size: 20px;
+}
+
+
+.about-heading li img {
+	width: 25px;
+}
+.about-heading button {
+	margin: 30px 40% 20px 40%;
+}
+
+
+
+
+
+/*----------News Section-----------*/
+
+
+
+.news-container {
+	text-align: center;
+	padding: 00px 00px 30px 00px;
+}
+.news-container div {
+	width: 100%;
+}
+.news-container div img {
+	width: 70%;
+	min-width: 400px;
+	padding-bottom: 50px;
+}
+
+.news-container div h1 {
+	color: #293858;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding: 5px 0px 30px 00px;
+}
+
+.box {
+	width: 80%;
+	height: 60px;
+	margin-bottom: 20px;
+}
+
+
+.news-container p {
+	font-size: 18px;
+	color: gray;
+	padding: 20px 20px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
